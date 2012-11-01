@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- The name of the application. -->
+    <string name="app_name">Medicinska Termer Lexikon</string>
+
+    <!-- The label for use as a searchable item -->
+    <string name="search_label">Medicinska termen</string>
+
+    <!-- The hint text that appears in the search box. -->
+    <string name="search_hint">Sök i ordlistan</string>
+
+    <!-- The menu entry that invokes search. -->
+    <string name="menu_search">Sök</string>
+
+    <!-- The description that will show up in the search settings for this source.  -->
+    <string name="settings_description">Definitioner av ord</string>
+
+    <!-- General instructions in the main activity. -->
+    <string name="search_instructions">Tryck sökningen för att slå ett ord</string>
+
+    <!-- Shown above search results when we receive a search request. -->
+    <plurals name="search_results">
+      <item quantity="one">%1$d resultat för \"%2$s\": </item>
+      <item quantity="other">%1$d resultat för \"%2$s\": </item>
+    </plurals>
+
+    <!-- Search failure message. -->
+    <string name="no_results">Inga resultat hittades för \"%s\"</string>
+
+</resources>
